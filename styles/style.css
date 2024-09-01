@@ -2072,6 +2072,11 @@ section {
         padding: 10px;
         border-radius: 10px;
     }
+    
+    .person-image {
+        height: 30px;
+        width: 30px;
+    }
 
     .person-image img {
         width: 30px;
@@ -2111,6 +2116,10 @@ section {
         border-radius: 10px;
     }
 
+    .person {
+        margin: 0;
+    }
+
     .person-image {
         width: 20px;
         height: 20px;
@@ -2132,7 +2141,6 @@ section {
 
     .card-text, .date {
         font-size: 10px;
-        margin-bottom: 5px;
     }
 }
 /*.image-slider {
