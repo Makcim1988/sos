@@ -1406,7 +1406,7 @@ section {
 
     .logo-block {
         width: 25%;
-        padding-left: 80px;
+        padding-left: 30px;
     }
 
     .logo {
@@ -1439,10 +1439,14 @@ section {
     }
 
     .title {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .title-text {
+        font-size: 16px;
+    }
+
+    .main-title p {
         font-size: 16px;
     }
 
@@ -1500,12 +1504,12 @@ section {
     }
 
     .about-title {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .description-text {
         font-family: OpenSans, sans-serif;
-        font-size: 18px;
+        font-size: 16px;
         padding-top: 15px;
     }
 
@@ -1514,7 +1518,7 @@ section {
     }
 
     .about-slider {
-        height: 50%;
+        max-height: 50%;
         background-size: cover;
         background-position: center;
     }
@@ -1597,10 +1601,6 @@ section {
         margin-left: auto;
     }
 
-    .title-text {
-        font-size: 20px;
-    }
-
     .card {
         width: 300px;
         height: 200px;
@@ -1659,6 +1659,7 @@ section {
 
     .submit {
         height: 45px;
+        font-size: 16px;
     }
 
     .submit:hover {
